@@ -6,6 +6,7 @@ use Closure;
 use Illuminate\Http\Request;
 use Symfony\Component\HttpFoundation\Response;
 use Auth;
+
 class User
 {
     /**
@@ -15,9 +16,9 @@ class User
      */
     public function handle(Request $request, Closure $next): Response
     {
-          if(!Auth::guard('web')->check()) {
-        return redirect()->route('login');
-    }
+        if(!Auth::guard('web')->check()) {
+            return redirect()->route('login')->with('error','You are not authorized!');
+        }
         return $next($request);
     }
 }

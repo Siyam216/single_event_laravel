@@ -9,5 +9,10 @@ use Illuminate\Notifications\Notifiable;
 
 class Admin extends Authenticatable
 {
-   use HasFactory, Notifiable;
+    use HasFactory, Notifiable;
+
+    public function messages()
+    {
+        return $this->hasMany(Message::class);
+    }
 }
