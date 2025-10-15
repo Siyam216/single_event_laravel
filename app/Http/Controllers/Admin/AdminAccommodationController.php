@@ -7,6 +7,8 @@ use Illuminate\Http\Request;
 use App\Models\Accommodation;
 use Illuminate\Validation\Rule;
 
+
+//admine controller to controll all wabe pages
 class AdminAccommodationController extends Controller
 {
     public function index()
