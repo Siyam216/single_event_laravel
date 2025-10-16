@@ -6,6 +6,8 @@ use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
 use App\Models\HomeWelcome;
 
+
+//this is for home welcome controller
 class AdminHomeWelcomeController extends Controller
 {
     public function index()
