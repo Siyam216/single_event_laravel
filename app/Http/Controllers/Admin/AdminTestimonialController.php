@@ -7,6 +7,7 @@ use Illuminate\Http\Request;
 use App\Models\Testimonial;
 use Illuminate\Validation\Rule;
 
+//admin testimonial controller 
 class AdminTestimonialController extends Controller
 {
     public function index()

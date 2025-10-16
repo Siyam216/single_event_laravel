@@ -7,6 +7,7 @@ use Illuminate\Http\Request;
 use App\Models\Video;
 use Illuminate\Validation\Rule;
 
+//admin video controller
 class AdminVideoController extends Controller
 {
     public function index()

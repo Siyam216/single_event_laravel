@@ -10,7 +10,7 @@ class AdminTicketController extends Controller
 {
     public function index()
     {
-        // make relation with package and user both
+        // make relation with  Package and user both
         $tickets = Ticket::with(['package','user'])->get();
         return view('admin.ticket.index', compact('tickets'));
     }
