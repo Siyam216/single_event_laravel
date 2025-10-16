@@ -8,6 +8,7 @@ use App\Models\ContactPageItem;
 use App\Models\TermPageItem;
 use App\Models\PrivacyPageItem;
 
+
 class AdminOtherPageController extends Controller
 {
     public function contact_page()

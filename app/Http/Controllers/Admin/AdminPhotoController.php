@@ -7,6 +7,7 @@ use Illuminate\Http\Request;
 use App\Models\Photo;
 use Illuminate\Validation\Rule;
 
+
 class AdminPhotoController extends Controller
 {
     public function index()

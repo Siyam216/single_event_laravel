@@ -8,6 +8,7 @@ use App\Models\Message;
 use App\Models\User;
 use App\Mail\Websitemail;
 
+//message controller
 class AdminMessageController extends Controller
 {
     public function index()
