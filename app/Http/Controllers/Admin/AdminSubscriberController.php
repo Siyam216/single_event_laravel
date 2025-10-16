@@ -7,6 +7,7 @@ use Illuminate\Http\Request;
 use App\Models\Subscriber;
 use App\Mail\Websitemail;
 
+
 class AdminSubscriberController extends Controller
 {
     public function index()

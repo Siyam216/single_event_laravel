@@ -33,7 +33,7 @@ class AdminSponsorCategoryController extends Controller
 
         return redirect()->route('admin_sponsor_category_index')->with('success','Sponsor Category is created successfully!');
     }
-
+  // for editing the id
     public function edit($id)
     {
         $sponsor_category = SponsorCategory::where('id',$id)->first();

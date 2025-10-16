@@ -40,6 +40,7 @@ class AdminSponsorController extends Controller
         $final_name_featured_photo = 'sponsor_featured_photo_'.time().'.'.$request->featured_photo->extension();
         $request->featured_photo->move(public_path('uploads'), $final_name_featured_photo);
 
+        // get this functionallity from database
         $sponsor = new Sponsor();
         $sponsor->name = $request->name;
         $sponsor->slug = $request->slug;
