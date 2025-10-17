@@ -8,7 +8,6 @@ return [
     |--------------------------------------------------------------------------
     | Default Database Connection Name
     |--------------------------------------------------------------------------
-    |
     | Here you may specify which of the database connections below you wish
     | to use as your default connection for database operations. This is
     | the connection which will be utilized unless another connection
@@ -115,7 +114,6 @@ return [
     |--------------------------------------------------------------------------
     | Migration Repository Table
     |--------------------------------------------------------------------------
-    |
     | This table keeps track of all the migrations that have already run for
     | your application. Using this information, we can determine which of
     | the migrations on disk haven't actually been run on the database.
