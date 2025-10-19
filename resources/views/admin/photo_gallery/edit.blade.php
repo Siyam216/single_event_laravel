@@ -5,7 +5,7 @@
 <div class="main-content">
     <section class="section">
         <div class="section-header justify-content-between">
-            <h1>Edit Photo</h1>
+             <h1>Edit Photo</h1>
             <div class="section-header-button">
                 <a href="{{ route('admin_photo_index') }}" class="btn btn-primary">View All</a>
             </div>
