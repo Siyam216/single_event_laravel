@@ -32,6 +32,7 @@
                                             <th class="w_100">Actions</th>
                                         </tr>
                                     </thead>
+                                    
                                     <tbody>
                                         @foreach($tickets as $ticket)
                                         <tr>
