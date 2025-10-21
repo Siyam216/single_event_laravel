@@ -10,6 +10,7 @@
                 <a href="{{ route('admin_organiser_index') }}" class="btn btn-primary">View All</a>
             </div>
         </div>
+      
         <div class="section-body">
             <div class="row">
                 <div class="col-12">

@@ -7,6 +7,7 @@
         <div class="section-header justify-content-between">
             <h1>Messages</h1>
         </div>
+      
         <div class="section-body">
             <div class="row">
                 <div class="col-12">
