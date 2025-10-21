@@ -10,6 +10,7 @@
                 <a href="{{ route('admin_package_index') }}" class="btn btn-primary">View All</a>
             </div>
         </div>
+       
         <div class="section-body">
             <form action="{{ route('admin_package_update',$package->id) }}" method="post">
                 @csrf

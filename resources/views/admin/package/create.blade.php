@@ -10,6 +10,7 @@
                 <a href="{{ route('admin_package_index') }}" class="btn btn-primary">View All</a>
             </div>
         </div>
+       
         <div class="section-body">
             <form id="dynamicForm" action="{{ route('admin_package_store') }}" method="post">
                 @csrf
