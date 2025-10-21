@@ -6,7 +6,6 @@
         <div class="sidebar-brand sidebar-brand-sm">
             <a href="{{ route('admin_dashboard') }}"></a>
         </div>
-
         <ul class="sidebar-menu">
 
             <li class="{{ Request::is('admin/dashboard') ? 'active' : '' }}"><a class="nav-link" href="{{ route('admin_dashboard') }}"><i class="fas fa-hand-point-right"></i> <span>Dashboard</span></a></li>

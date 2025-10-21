@@ -5,6 +5,7 @@
             <li><a href="#" data-toggle="sidebar" class="nav-link nav-link-lg"><i class="fas fa-bars"></i></a></li>
         </ul>
     </form>
+   
     <ul class="navbar-nav navbar-right justify-content-end rightsidetop">
         <li class="nav-link">
             <a href="{{ url('/') }}" target="_blank" class="btn btn-warning">Front End</a>
