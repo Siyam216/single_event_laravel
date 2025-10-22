@@ -1,6 +1,7 @@
 @extends('front.layout.master')
 
 @section('main_content')
+
 <div class="common-banner" style="background-image:url({{ asset('uploads/'.$setting_data->banner) }})">
     <div class="container">
         <div class="row">
