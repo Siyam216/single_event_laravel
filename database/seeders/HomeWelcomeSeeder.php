@@ -13,6 +13,7 @@ class HomeWelcomeSeeder extends Seeder
      */
     public function run(): void
     {
+       
         $obj = new HomeWelcome;
         $obj->heading = "Welcome To Our Website";
         $obj->description = "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's stan when an unknown printer took a galley of type and scramble. Lorem Ipsum is simply dummy text of the printing and typesetting industry.";

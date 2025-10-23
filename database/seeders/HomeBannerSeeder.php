@@ -13,6 +13,7 @@ class HomeBannerSeeder extends Seeder
      */
     public function run(): void
     {
+       
         $obj = new HomeBanner;
         $obj->heading = "Event and Conference Website";
         $obj->subheading = "September 20-24, 2024, California";

@@ -13,6 +13,7 @@ class HomeCounterSeeder extends Seeder
      */
     public function run(): void
     {
+       
         $obj = new HomeCounter;
         $obj->item1_icon = "fa fa-calendar";
         $obj->item1_number = "120";
